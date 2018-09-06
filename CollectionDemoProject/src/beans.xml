@@ -1,0 +1,36 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans  
+http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+<bean id="mycollection" class="com.manipal.ABC">
+<property name="list">
+<list>
+<value>1</value>
+<value>2</value>
+<value>3</value>
+<value>4</value>
+</list>
+</property>
+<property name="set">
+<set>
+<value>"Chennai"</value>
+<value>"Is"</value>
+<value>"A"</value>
+<value>"City"</value>
+</set>
+</property>
+<property name="map">
+<map>
+<entry key="10" value="Arun"/>
+<entry key="20" value="Varun"/>
+<entry key="30" value="Tarun"/>
+</map>
+</property>
+
+
+
+</bean>
+
+
+</beans>
