@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans  
+http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+<bean id="aobj" class="com.manipal.A">
+<property name="i" value="99"/>
+</bean>
+<bean id="bobj" class="com.manipal.B">
+<constructor-arg name="str" value="hello"> </constructor-arg>
+</bean>
+<bean class="com.manipal.MyBeanPostProcessor"></bean>
+
+
+
+
+
+
+
+
+
+</beans>
